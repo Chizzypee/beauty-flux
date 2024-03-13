@@ -102,7 +102,6 @@ const register = async (e) => {
              });
               const result = await res.json();
              if(!res.ok){
-                // console.log(res); 
                 throw new Error(result.msg);            
              }
              window.location.href = ("../log_reg/login.html");
