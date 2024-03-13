@@ -1,0 +1,104 @@
+modules in node is a simple of complex functionality organized in single or multiple javascript files which can be reused throughout the node.js application
+module is use to keep the application maintainable
+
+node.js include three type o module
+core modules
+local module
+third party module
+
+node js is a frame work and not a programming language thats rapped with google V8 engine
+Node js is build on express js
+For a server to receive a request it must listen to that event on thaT EVENT ON A particular port
+Port are always in number e.g 3000, 5000, 8080 any number can serve as a port
+
+EXAMPLE OS PACKAGE MANGER
+Node package manager (NPM)
+Y.A.R.N
+M.P.P.M
+
+DAY2
+Entry point: is the first thing that will be read keyword are associated
+
+Node package: npm install NodeMon -Data
+package dependency is used to keep the list of packages or dependencies.
+A.P.I: Application programming interface
+
+DATA VALIDATION: is to verify that data is been supplied as required
+A file system: is a mechanism that define the storage and retrieval of files
+EXAMPLES OF FILE SYSTEM:
+C.D.F.S: compact disks file system
+N.I.F.S:
+F.A.T: files allocation table
+A collection of modules is called a package
+A paths is a directory
+
+TYPE OF PATHS:
+Relative paths
+Absolute paths
+
+A class is a blueprint or a  template 
+First basic operation performed in a files: 
+.create
+.read
+.update
+.Delete
+all this are know as C.R.U.DATA
+
+UTF8: unicode transmission format, is used to format text for transmission.
+
+file system accept three argument which are:
+.Paths first argument
+.Format which you want to read the file
+.Call back
+
+The writeFile will replace existing file, if it has not been created, the writeFile function will recreate.
+writeFile accept 4 augment
+.Paths
+.Content which you use to write to the file
+
+
+
+DAY3
+S.Q.L: Structured query language
+sub language for sql include: 
+D.Q.L: data query language
+D.D.L: Data definition language
+D.M.L: Data manipulation language
+D.C.L: Data control language
+T.C.L: Transaction control language
+
+
+DAY4
+RENDER: is a web hosting platform is use to host service online but render are focus on web services
+we can use render to deploy our project online
+WEB SERVICE
+UNIT TESTING: testing our code individually to check if the code is running
+testing the entire unit of function if they can work independently without one crashing the other
+functionality testing*:
+
+DAY 5
+Environment(variable) is use to store sensitive data, connection strings , tokens, and dev settings
+Environment is stored on (dot Env)
+this E.n.v is use to interact with env variable
+
+Middleware: when request comes to your API the Middleware is going to intercept th request, the Middleware will first ad process it first before it sent to the responds but if the data coming in and doesn't have the standard the Middleware can reject the data coming in
+
+DAY 5
+SET UP APPLICATION
+1. CONNECT DATABASE
+2.MODEL USER SCHEMA defining the field to make up our user
+
+controller is a set of function that accept request and responds
+Router is a function that send the information to particular endpoint, Router accept two function endpoint and controller, IT CONNECT A REQUEST TO A ROUTER
+ORM: object Relation Mapper
+mongodb is a database for storing document
+mongoose is a javascript framework that help in writing javascript language 
+
+DAY 6
+BCRYPTJS IS USE TO ENCRYPT AND BCRYPT TEXT
+Compare is to get the encrypted text and plan text and compare if they match
+
+DAY 7
+encrypt sync takes in two augment =>
+1 text: 
+2 salt:is a value or a number thats is use to added to the encryption function, to improve the encryption function, it as also know thee SEED value
