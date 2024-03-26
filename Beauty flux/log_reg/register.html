@@ -12,12 +12,12 @@
             <div class="side-nav" id="mySidenav">
                 <ul>
                     <a href="javascript:void(o)" class="closeBtn" onclick="closeNav()">&times;</a>
-                    <li class="nav-active"><a href="../HERO/Hero-section.html">HOME</a></li>
+                    <li class="nav-active"><a href="../Hero-section.html">HOME</a></li>
                     <li><a href="../HERO/Contestant.html">Contestant</a></li>
                     <li><a href="../HERO/Contact.html">Contact us</a></li>
                     <li><a href="../HERO/About.html">About us</a></li>
-                    <li><a href="../LOG-REG/register.html">Register</a></li>
-                    <li><a href="../LOG-REG/login.html">Login</a></li>
+                    <li><a href="../log_reg/register.html">Register</a></li>
+                    <li><a href="../log_reg/login.html">Login</a></li>
                 </ul>
             </div>
             <div id="main">
@@ -25,16 +25,15 @@
             </div>
 
         <nav>
-            <div class="nav-logo">
+            <div class="nav-search">
+                <img src="../HERO/items/icon/flux.jpeg" class="flux-nav">
                 <label class="text" for="text">BEAUTY<STRONG>FLUX</STRONG></label>
             </div>
             <div class="nav-search">
                 <input class="nav-field" type="text" placeholder="search">
-                <div class="search-box">
-                    <img src="#">
-                </div>
+                <img src="../HERO/items/searchbar.png" class="search-img">
             </div>
-            <div class="order">
+            <div class="nav-search">
                 <a href="../log_reg/login.html">
                 <img src="../HERO/items/images.png" class="profile">
                 </a>
@@ -42,77 +41,78 @@
         </nav>
 
         <div class="content">
-            <!-- <div class="content2"> -->
-                <div class="btn-button">
-                    <a href="./login.html">
-                    <button class="btn-log">LOGIN</button>
-                    </a>
-                    <a href="./register.html">
-                    <button class="btn-reg" id="active">REGISTER</button>
-                    </a>
-                </div> 
-                <div class="heading">
-                    <h1>Beauty Flux</h1>
-                    <h3>Create My Account</h3>
-                    <p>Please fill in the information below!</p>
+            <div class="btn-button">
+                <a href="./login.html">
+                <button class="btn-log">LOGIN</button>
+                </a>
+                <a href="./register.html">
+                <button class="btn-log" id="active">REGISTER</button>
+                </a>
+            </div> 
+            <div class="heading">
+                <img src="../HERO/items/icon/flux.jpeg" class="flux">
+                <h1>Beauty Flux</h1>
+                <h3>Create My Account</h3>
+                <p>Please fill in the information below!</p>
+            </div>
+            <form>
+                <div class="sec">
+                    <div class="item">
+                        <input class="field" type="text" placeholder="First name" id="firstName">
+                    </div>
+                    <div class="item">
+                        <input class="field" type="text" placeholder="last name" id="lastName">
+                    </div>
                 </div>
-                <form>
-                    <div class="sec">
-                        <div class="item">
-                            <input class="field" type="text" placeholder="First name" id="firstName">
-                        </div>
-                        <div class="item">
-                            <input class="field" type="text" placeholder="last name" id="lastName">
-                        </div>
+                <div class="sec">
+                    <div class="item">
+                        <input class="field" type="text" placeholder="Middle name" id="middleName">
                     </div>
-                    <div class="sec">
-                        <div class="item">
-                            <input class="field" type="text" placeholder="Username" id="username">
-                        </div>
-                        <div class="item">
-                            <input class="field" type="text" placeholder="Enter Address" id="address">
-                        </div>
+                    <div class="item">
+                        <input class="field" type="number" placeholder="Phone Number" id="number">
                     </div>
-                    <div class="sec">
-                        <div class="item">
-                            <input class="field" type="date" placeholder="Date of birth" id="date">
-                        </div>
-                        <div class="item">
-                            <input class="field" type="text" placeholder="Origin" id="Origin">
-                        </div>
-                    </div>
-                    <div class="sec">
-                        <div class="item">
-                            <input class="field" type="text" placeholder="Education status" id="Education">
-                        </div>
-                        <div class="item">
-                            <input class="field" type="email" placeholder="Enter email" id="email">
-                        </div>
-                    </div>
-                    <div class="sec">
-                        <div class="item">
-                            <input class="field" type="password" placeholder="Enter password" id="password">
-                        </div>
-                        <div class="item">
-                            <input class="field" type="password" placeholder="confirm password" id="confirm">
-                        </div>
-                    </div>
-                </form>
-                <div class="btn">
-                    <!-- <a href="./login.html"> -->
-                        <button class="btn-reg2" onclick="register(event)">Register</button>
-                    <!-- </a> -->
                 </div>
-                <div class="item2">
-                    <input type="checkbox" class="check"><p> By signing up i agree with the</p><a href="#">terms and condition</a>
+                <div class="sec">
+                    <div class="item">
+                        <input class="field" type="text" placeholder="Username" id="username">
+                    </div>
+                    <div class="item">
+                        <input class="field" type="text" placeholder="Enter Address" id="address">
+                    </div>
                 </div>
-                <div class="foot">
-                    <img src="../HERO/items/icon/facbook.png" class="socials">
-                    <img src="../HERO/items/icon/instagram.png" class="socials">
-                    <img src="../HERO/items/icon/twitter.png" class="socials">
-                    <img src="../HERO/items/icon/whatsapp.png" class="socials">
+                <div class="sec">
+                    <div class="item">
+                        <input class="field" type="date" placeholder="Date of birth" id="date">
+                    </div>
+                    <div class="item">
+                        <input class="field" type="text" placeholder="Origin" id="Origin">
+                    </div>
                 </div>
-            <!-- </div> -->
+                <div class="sec">
+                    <div class="item">
+                        <input class="field" type="text" placeholder="Education status" id="Education">
+                    </div>
+                    <div class="item">
+                        <input class="field" type="email" placeholder="Enter email" id="email">
+                    </div>
+                </div>
+                <div class="sec">
+                    <div class="item">
+                        <input class="field" type="password" placeholder="Enter password" id="password">
+                    </div>
+                    <div class="item">
+                        <input class="field" type="password" placeholder="confirm password" id="confirm">
+                    </div>
+                </div>
+            </form>
+            <div class="btn">
+                <button class="btn-reg2" onclick="register(event)">Register</button>
+            </div>
+            <div class="item3">
+                <input type="checkbox" class="check">
+                <p>By signing up i agree with the 
+                terms and condition</p>
+            </div>
         </div>
         <footer>
             <div class="footer-nav">
@@ -120,10 +120,16 @@
                     <h1>Connect with us</h1>
                 </div>
                 <div class="foot">
-                    <img src="../HERO/items/icon/home.png" class="socials">
-                    <img src="../HERO/items/icon/mail.png" class="socials">
+
+                    <a href="../Hero-section.html">
+                        <img src="../HERO/items/icon/home.png" class="socials">
+                    </a>
+
+                    <a href="../HERO/Contact.html">
+                        <img src="../HERO/items/icon/mail.png" class="socials">
+                    </a>
                     <img src="../HERO/items/icon/call.png" class="socials">
-                    <img src="../HERO/items/icon/@mail.png" class="socials">
+
                     <img src="../HERO/items/icon/@mail.png" class="socials">
                 </div>
             </div>
@@ -132,8 +138,8 @@
                     <li><a href="#">PRIVACY POLICY</a></li>
                     <li><a href="#">TERMS AND CONDITION</a></li>
                     <li><a href="#">SITE MAP</a></li>
-                    <li><a href="#">ABOUT US</a></li>
-                    <li><a href="#">CONTACT</a></li>
+                    <li><a href="../HERO/About.html">ABOUT US</a></li>
+                    <li><a href="../HERO/Contact.html">CONTACT</a></li>
                 </ul>
             </div>
             <div class="footer-right">

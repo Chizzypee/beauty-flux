@@ -4,44 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=\, initial-scale=1.0">
     <title>hero-section</title>
-    <link rel="stylesheet" href="./hero.css">
-    <script src="./menu-function.js"></script>
+    <link rel="stylesheet" href="./HERO/hero.css">
+    <!-- <link rel="stylesheet" href="./HERO/media-screen.css"> -->
+    <script src="./HERO/menu-function.js"></script>
 </head>
 <body>
     <div class="container">
         <div class="content">
-
-            <!-- <nav> -->
-                <div class="side-nav" id="mySidenav">
-                    <ul>
-                        <a href="javascript:void(o)" class="closeBtn" onclick="closeNav()">&times;</a>
-                        <li class="nav-active"><a href="../HERO/Hero-section.html">HOME</a></li>
-                        <li class="nav-active"><a href="./Contestant.html">contestant</a></li>
-                        <li><a href="./Contact.html">Contact us</a></li>
-                        <li><a href="./About.html">About us</a></li>
-                        <li><a href="../LOG-REG/register.html">Register</a></li>
-                        <li><a href="../LOG-REG/login.html">Login</a></li>
-                    </ul>
-                </div>
-                <div id="main">
-                    <span style="font-size: 30px; cursor: pointer; margin-left: 70ch;" onclick="openNav()">&#9776;</span>
-                </div>
-            <!-- </nav> -->
-
+            <div class="side-nav" id="mySidenav">
+                <ul>
+                    <a href="javascript:void(o)" class="closeBtn" onclick="closeNav()">&times;</a>
+                    <li class="nav-active"><a href="./Hero-section.html">HOME</a></li>
+                    <li class="nav-active"><a href="./HERO/Contestant.html">contestant</a></li>
+                    <li><a href="./HERO/Contact.html">Contact us</a></li>
+                    <li><a href="./HERO/About.html">About us</a></li>
+                    <li><a href="./log_reg/register.html">Register</a></li>
+                    <li><a href="./log_reg/login.html">Login</a></li>
+                </ul>
+            </div>
+            <div id="main">
+                <span style="font-size: 30px; cursor: pointer; margin-left: 70ch;" onclick="openNav()">&#9776;</span>
+            </div>
+            
             <nav>
-                
-                <div class="nav-logo">
-                    <label class="text" for="text">BEAUTY<STRONG>FLUX</STRONG></label>
+                <div class="nav-search">
+                    <img src="./HERO/items/icon/flux.jpeg" class="flux-nav">
+                    <label class="text-nav" for="text">BEAUTY<STRONG>FLUX</STRONG></label>
                 </div>
-                <div class="search">
-                    <input class="field" type="text" placeholder="search">
-                    <div class="search-box">
-                        <img src="#">
-                    </div>
+                <div class="nav-search">
+                    <input class="nav-field" type="text" placeholder="search">
+                    <img src="./HERO/items/searchbar.png" class="search-img">
                 </div>
-                <div class="order">
-                    <a href="../LOG-REG/login.html">
-                        <img src="./items/images.png" class="profile">
+                <div class="nav-search">
+                    <a href="./log_reg/login.html">
+                    <img src="./HERO/items/images.png" class="profile">
                     </a>
                 </div>
             </nav>
@@ -49,7 +45,7 @@
             <div class="hero-section">
                 <div class="hero-content">
                     <div class="frame">
-                        <img src="../HERO/items/flux.png" class="hero-img">
+                        <img src="./HERO/items/flux.png" class="hero-img">
                     </div>
 
                     <div class="heading">
@@ -57,13 +53,13 @@
                     </div>
                     <div class="heading1">
                         <div class="item">
-                            <label class="text" for="text"><a href="../LOG-REG/register.html">Get Started</a></label>
+                            <label class="text" for="text"><a href="./log_reg/register.html">Get Started</a></label>
                         </div>
                         <div class="item">
                             <label class="text" for="text">MORE FEATURES</label>
                         </div>
                         <div class="item">
-                            <label class="text" for="text"><a href="../HERO/Contestant.html">View Contestant</a></label>
+                            <label class="text" for="text"><a href="./HERO/Contestant.html">View Contestant</a></label>
                         </div>
                     </div>
 
@@ -76,7 +72,7 @@
                     <div class="hero-content2">
                         <div class="sec">
                             <div class="item">
-                                <img src="../imgs/E1.png" class="img">
+                                <img src="./imgs/E1.png" class="img">
                                 <label class="text" for="text">100,000 Euro luxury car prize</label>
                                 <label class="text1" for="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi commodi quia laboriosam tenetur ut similique sint reprehenderit dolor sequi, rem distinctio provident eveniet sed quo reiciendis, ex at. Ipsum, alias.</label>
                                 <div class="btn">
@@ -86,7 +82,7 @@
                         </div>
                         <div class="sec">
                             <div class="item">
-                                <img src="../imgs/S (2).png" class="img">
+                                <img src="./imgs/S (2).png" class="img">
                                 <label class="text" for="text">Nigerian hosting MISS FLUX international Beauty pageant</label>
                                 <label class="text1" for="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur suscipit, numquam amet dolores laborum corporis aperiam veritatis totam, deserunt enim asperiores ut voluptatibus assumenda commodi veniam vel odit. Illo, porro!</label>
                                 <div class="btn">
@@ -96,7 +92,7 @@
                         </div>
                         <div class="sec">
                             <div class="item">
-                                <img src="../imgs/R (6).png" class="img">
+                                <img src="./imgs/R (6).png" class="img">
                                 <label class="text" for="text">MISS Flux - for the first time in the world</label>
                                 <label class="text1" for="text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum placeat tenetur distinctio impedit repellendus aliquid corporis a magnam sint rerum error quod provident facere porro nisi similique, libero aliquam eius.</label>
                                 <div class="btn">
@@ -113,7 +109,7 @@
                     <div class="hero-content2">
                         <div class="sec">
                             <div class="item">
-                                <img src="../imgs/S (1).png" class="img">
+                                <img src="./imgs/S (1).png" class="img">
                                 <label class="text" for="text">100,000 Euro luxury car prize</label>
                                 <label class="text1" for="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi commodi quia laboriosam tenetur ut similique sint reprehenderit dolor sequi, rem distinctio provident eveniet sed quo reiciendis, ex at. Ipsum, alias.</label>
                                 <div class="btn">
@@ -123,7 +119,7 @@
                         </div>
                         <div class="sec">
                             <div class="item">
-                                <img src="../imgs/D3.png" class="img">
+                                <img src="./imgs/D3.png" class="img">
                                 <label class="text" for="text">Nigerian hosting MISS FLUX international Beauty pageant</label>
                                 <label class="text1" for="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur suscipit, numquam amet dolores laborum corporis aperiam veritatis totam, deserunt enim asperiores ut voluptatibus assumenda commodi veniam vel odit. Illo, porro!</label>
                                 <div class="btn">
@@ -133,7 +129,7 @@
                         </div>
                         <div class="sec">
                             <div class="item">
-                                <img src="../imgs/H (2).png" class="img">
+                                <img src="./imgs/H (2).png" class="img">
                                 <label class="text" for="text">MISS Flux - for the first time in the world</label>
                                 <label class="text1" for="text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum placeat tenetur distinctio impedit repellendus aliquid corporis a magnam sint rerum error quod provident facere porro nisi similique, libero aliquam eius.</label>
                                 <div class="btn">
@@ -150,7 +146,7 @@
                     <div class="hero-content2">
                         <div class="sec">
                             <div class="item">
-                                <img src="../imgs/S (7).png" class="img1">
+                                <img src="./imgs/S (7).png" class="img1">
                                 <label class="text" for="text">January-2024</label>
                                 <div class="btn">
                                     <button class="add-to-cart1">READ MORE</button>
@@ -159,7 +155,7 @@
                         </div>
                         <div class="sec">
                             <div class="item">
-                                <img src="../imgs/D6.jpeg" class="img1">
+                                <img src="./imgs/D6.jpeg" class="img1">
                                 <label class="text" for="text">february-2023</label>
                                 <div class="btn">
                                     <button class="add-to-cart1">READ MORE</button>
@@ -168,7 +164,7 @@
                         </div>
                         <div class="sec">
                             <div class="item">
-                                <img src="../imgs/S (5).png" class="img1">
+                                <img src="./imgs/S (5).png" class="img1">
                                 <label class="text" for="text">Match-2022</label>
                                 <div class="btn">
                                     <button class="add-to-cart1">READ MORE</button>
@@ -177,7 +173,7 @@
                         </div>
                         <div class="sec">
                             <div class="item">
-                                <img src="../imgs/S (3).png" class="img1">
+                                <img src="./imgs/S (3).png" class="img1">
                                 <label class="text" for="text">Match-2022</label>
                                 <div class="btn">
                                     <button class="add-to-cart1">READ MORE</button>
@@ -188,7 +184,7 @@
                     <div class="hero-content2">
                         <div class="sec">
                             <div class="item">
-                                <img src="../imgs/S (1).png" class="img1">
+                                <img src="./imgs/S (1).png" class="img1">
                                 <label class="text" for="text">Apirl-2021</label>
                                 <div class="btn">
                                     <button class="add-to-cart1">READ MORE</button>
@@ -197,7 +193,7 @@
                         </div>
                         <div class="sec">
                             <div class="item">
-                                <img src="../imgs/R (8).png" class="img1">
+                                <img src="./imgs/R (8).png" class="img1">
                                 <label class="text" for="text">May-2020</label>
                                 <div class="btn">
                                     <button class="add-to-cart1">READ MORE</button>
@@ -206,7 +202,7 @@
                         </div>
                         <div class="sec">
                             <div class="item">
-                                <img src="../imgs/S (6).png" class="img1">
+                                <img src="./imgs/S (6).png" class="img1">
                                 <label class="text" for="text">June-2019</label>
                                 <div class="btn">
                                     <button class="add-to-cart1">READ MORE</button>
@@ -215,7 +211,7 @@
                         </div>
                         <div class="sec">
                             <div class="item">
-                                <img src="../imgs/R (9).png" class="img1">
+                                <img src="./imgs/R (9).png" class="img1">
                                 <label class="text" for="text">July-2018</label>
                                 <div class="btn">
                                     <button class="add-to-cart1">READ MORE</button>
@@ -231,10 +227,15 @@
                         <h1>Connect with us</h1>
                     </div>
                     <div class="foot">
-                        <img src="./items/icon/home.png" class="socials">
-                        <img src="./items/icon/mail.png" class="socials">
-                        <img src="./items/icon/call.png" class="socials">
-                        <img src="./items/icon/@mail.png" class="socials">
+                        <a href="./Hero-section.html">
+                            <img src="./HERO/items/icon/home.png" class="socials">
+                        </a>
+    
+                        <a href="./HERO/Contact.html">
+                            <img src="./HERO/items/icon/mail.png" class="socials">
+                        </a>
+                        <img src="./HERO/items/icon/call.png" class="socials">
+                        <img src="./HERO/items/icon/@mail.png" class="socials">
                     </div>
                 </div>
                 <div class="footer-link">
@@ -242,8 +243,8 @@
                         <li><a href="#">PRIVACY POLICY</a></li>
                         <li><a href="#">TERMS AND CONDITION</a></li>
                         <li><a href="#">SITE MAP</a></li>
-                        <li><a href="./About.html">ABOUT US</a></li>
-                        <li><a href="./Contact.html">CONTACT</a></li>
+                        <li><a href="./HERO/About.html">ABOUT US</a></li>
+                        <li><a href="./HERO/Contact.html">CONTACT</a></li>
                     </ul>
                 </div>
                 <div class="footer-right">

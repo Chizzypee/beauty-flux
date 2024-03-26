@@ -11,8 +11,11 @@
         <div class="des-content">
             <div class="img">
                 <img src="../imgs/L (8).png" class="profile-photo">
-                <label for="text" class="username">Grace Mercy</label>
-                <label for="text" class="user-ID">@gracemercy789</label>
+                <div class="des-follow-following">
+                    <label for="text" class="firstName"></label>
+                    <label for="text" class="lastName"></label>
+                </div>
+                <label for="text" class="username"></label>
                 <div class="des-follow-following">
                     <label for="text" class="following">324 <span>following</span></label>.
                     <label for="text" class="following">10.2k <span>followers</span></label>
@@ -32,96 +35,52 @@
         </div>
         <div class="main-container">
             <div class="des-content2">
-                <!-- Content -->
-                <div class="eve-heading">
-                    <h3>Event</h3>
-                </div>
-                <div class="event-content">
-                    <div class="eve-heading">
-                        <h3>Upcoming event</h3>
+                <div class="profile-cover">
+                    <div class="cover">
+                        <img src="../imgs/C6.jpeg" class="cover-pic">
                     </div>
-                    <div class="eve">
-                        <div class="eve-item">
-                            <a href="./pages/Event-content.html">
-                                <img src="../HERO/items/icon/calander.png" class="eve-date">
-                                <div class="eve-item-head">
-                                    <label for="text" class="eve-head">Sun, 25 MAR 2024<br>
-                                    <label for="text" class="eve-head1">Cloth shopping<br>
-                                    <label for="text" class="eve-head2">Online<br>
-                                    <label for="text" class="eve-head">Hosted by <span>beauty flux queen</span><br>
-                                </div>
-                            </a>
+                    <div class="profile1">
+                        
+                        <div class="profile">
+                            <img src="" id="profile" class="profile-photo1">
+                            <input type="file" accepts="image/*" onchange="selectImage(this)">
+                            <button id="profileUpdate" onclick="updateProfile()">Updated</button> 
                         </div>
-                        <div class="eve-item">
-                            <a href="#">
-                                    <img src="../HERO/items/icon/calander.png" class="eve-date">
-                                <div class="eve-item-head">
-                                    <label for="text" class="eve-head">Friday, 22 MAR 2024<br>
-                                    <label for="text" class="eve-head1">Friends meeting</label><br>
-                                    <label for="text" class="eve-head2">Online<br>
-                                    <label for="text" class="eve-head">Hosted by <span>beauty flux queen</span><br>
-                                </div>
-                            </a>
+                        <div class="profile">
+                            <div class="f-btn">
+                                <button class="follow-p">Edit profile</button>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="event-content">
-                    <div class="eve-heading">
-                        <h3>Recent event</h3>
+                <div class="profile-info">
+                    <div class="follow-following">
+                        <label for="text" class="firstName-profile"></label>
+                        <label for="text" class="lastName-profile"></label>
                     </div>
-                    <div class="eve">
-                        <div class="eve-item">
-                            <a href="#">
-                                <img src="../HERO/items/icon/calander.png" class="eve-date">
-                                <div class="eve-item-head">
-                                    <label for="text" class="eve-head">Mon, 10 FEB 2024<br>
-                                    <label for="text" class="eve-head1">Party night<br>
-                                    <label for="text" class="eve-head2">Online<br>
-                                    <label for="text" class="eve-head">Hosted by <span>beauty flux queen</span><br>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="eve-item">
-                            <a href="#">
-                                    <img src="../HERO/items/icon/calander.png" class="eve-date">
-                                <div class="eve-item-head">
-                                    <label for="text" class="eve-head">Wed, 8 MAR 2024<br>
-                                    <label for="text" class="eve-head1">Makeup shopping<br>
-                                    <label for="text" class="eve-head2">Online<br>
-                                    <label for="text" class="eve-head">Hosted by <span>beauty flux queen</span><br>
-                                </div>
-                            </a>
-                        </div>
+                    <label for="text" class="username-profile"></label>
+                    <label for="text" class="bio">Am the beautiful girl in the world</label>
+                    <div class="follow-following">
+                        <label for="text" class="profile-info1">Born 16 December 1992</label>.
+                        <label for="text" class="profile-info1">Joined March 2024</label>
+                    </div>
+                    <div class="follow-following">
+                        <label for="text" class="profile-info1"><span class="span">343</span> following</label>.
+                        <label for="text" class="profile-info1"><span class="span">10.2k</span> followers</label>
                     </div>
                 </div>
-                <div class="event-content">
-                    <div class="eve-heading">
-                        <h3>Past event</h3>
-                    </div>
-                    <div class="eve">
-                        <div class="eve-item">
-                            <a href="#">
-                                <img src="../HERO/items/icon/calander.png" class="eve-date">
-                                <div class="eve-item-head">
-                                    <label for="text" class="eve-head">Mon, 5 JUN 2023<br>
-                                    <label for="text" class="eve-head1">House party<br>
-                                    <label for="text" class="eve-head2">Online<br>
-                                    <label for="text" class="eve-head">Hosted by <span>beauty flux queen</span><br>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="eve-item">
-                            <a href="#">
-                                    <img src="../HERO/items/icon/calander.png" class="eve-date">
-                                <div class="eve-item-head">
-                                    <label for="text" class="eve-head">Wed, 10 Nov 2023<br>
-                                    <label for="text" class="eve-head1">Thanksgiving<br>
-                                    <label for="text" class="eve-head2">Online<br>
-                                    <label for="text" class="eve-head">Hosted by <span>beauty flux queen</span><br>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
+                <div class="profile-menu">
+                    <li class="pro-active"><a href="#">POST</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">PHOTO</a></li>
+                    <li><a href="#">VIDEO</a></li>
+                </div>
+                <div class="warning">
+                    <h1>You haven't posted yet</h1>
+                    <p>When you post a post, it'll show up here.</p>
+                </div>
+                <div class="post-btn">
+                    <button class="post-now">Post now</button>
                 </div>
             </div>
             <div class="des-content3">
@@ -239,5 +198,9 @@
             </div>
         </div>
     </div>
+    <script src="../log_reg/functions/bflux.js"></script>
+    <script src="../log_reg/functions/routes.js"></script>
+    <script src="../log_reg/functions/utils.js"></script>
+    <script src="./function/dashboard.js"></script>
 </body>
 </html>

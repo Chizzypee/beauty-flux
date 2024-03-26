@@ -64,17 +64,29 @@ body{
     width: 45%;
     margin-bottom: 15px;
 }
-.img .username{
+.des-follow-following .username{
+    color: blue;
+    font-size: 20px;
+    font-weight: 600;
+}
+.des-follow-following .firstName{
     color: white;
     font-size: 20px;
     font-weight: 600;
 }
-.img .user-ID{
+.des-follow-following .lastName{
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+.img .username{
     color: blue;
     font-size: 15px;
 }
 .des-follow-following{
     margin-top: 10px;
+    display: flex;
+    gap: 5px;
 }
 .des-follow-following .following{
     font-size: 15px;
@@ -87,8 +99,11 @@ body{
     display: flex;
     flex-direction: column;
     gap: 30px;
-    margin-top: 120px;
+    margin-top: 100px;
     width: 100%;
+}
+.menu-pic{
+    width: 25px;
 }
 .des-menu li{
     padding: 23px;
@@ -98,6 +113,7 @@ body{
     border-bottom: none;
 }
 .des-menu a{
+    margin-left: 20px;
     color: white;
 }
 .active:hover{
@@ -106,9 +122,9 @@ body{
 .log-out{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    width: 100%;
-    gap: 100px;
+    /* justify-content: space-around; */
+    /* width: 100%; */
+    /* gap: 100px; */
 }
 .logout{
     padding: 5px;
@@ -118,8 +134,8 @@ body{
     cursor: pointer;
 }
 .logout:hover{
-    background-color: white;
-    color: black;
+    background-color: red;
+    color: white;
     font-weight: 700;
 }
 /* main nav */
@@ -188,8 +204,9 @@ nav{
 .post{
     display: flex;
     flex-direction: column;
-    width: 90%;
-    height: 45vh;
+    width: 95%;
+    height: 60vh;
+    margin-top: 10px;
     border-bottom: 1px solid black;
 }
 .item{
@@ -198,7 +215,15 @@ nav{
     align-items: center;
     width: 80%;
     gap: 5px;
-    height: 40vh;
+}
+.das-item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 80%;
+    gap: 5px;
+    /* height: 70vh; */
+    /* background-color: hotpink; */
 }
 .profile{
     display: flex;
@@ -214,37 +239,50 @@ nav{
     width: 100%;
     gap: 5px;
 }
-.item1 p{
+.item1 .firstName-das1{
     color: blue;
     font-weight: 600;
+}
+.item1 .lastName-das1{
+    color: blue;
+    font-weight: 600;
+}
+.item1 .username-das1{
+    color: rgb(71, 71, 71);
+    font-weight: 400;
 }
 .item2{
     display: flex;
     flex-direction: column;
     margin-left: 45px;
     gap: 20px;
+    width: 100%;
 }
 .item2 p{
     font-weight: 600;
 }
 .posted{
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    width: 60%;
+    margin-bottom: 15px;
 }
 .posted-pic{
-    width: 30%;
+    width: 100%;
     height: 15vh;
 }
 .interaction{
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: center;
     width: 100%;
-    margin-top: 50px;
+    margin-bottom: 10px;
+    gap: 10px;
 }
 .likes{
-    display: flex;
-    flex-direction: row;
-    margin-left: 45px;
+    width: 15%;
 }
 /* PROFILE */
 .profile-cover{
@@ -276,15 +314,21 @@ nav{
     flex-direction: column;
 }
 .profile-photo1{
-    width: 90%;
+    width: 60%;
     height: 20vh;
     margin-top: 230px;
-    margin-left: 40px;
+    margin-left: 20px;
     border-radius: 100px;
+    /* background-color: red; */
+}
+#profile-update{
+    font-size: 10px;
+    width: 30%;
 }
 .f-btn{
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
 .follow-p{
     padding: 5px;
@@ -292,8 +336,9 @@ nav{
     font-weight: 600;
     border: 2px solid blue;
     width: 25%;
+    width: 30%;
     margin-top: 20rem;
-    margin-left: 20rem;
+    margin-left: 15rem;
     border-radius: 100px;
 }
 .profile-info{
@@ -303,10 +348,13 @@ nav{
     margin-top: 100px;
     gap: 3px;
 }
-.profile-info .username{
+.follow-following .firstName-profile{
     font-weight: 700;
 }
-.profile-info .user-ID{
+.follow-following .lastName-profile{
+    font-weight: 700;
+}
+.profile-info .username-profile{
     font-weight: 600;
     color: blue;
 }
@@ -318,7 +366,7 @@ nav{
     flex-direction: row;
     gap: 8px;
 }
-.following{
+.profile-info1{
     font-weight: 600;
 }
 span.span{

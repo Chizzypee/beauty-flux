@@ -102,3 +102,17 @@ DAY 7
 encrypt sync takes in two augment =>
 1 text: 
 2 salt:is a value or a number thats is use to added to the encryption function, to improve the encryption function, it as also know thee SEED value
+
+WEEK 3
+Middleware are function that have access to the request object (res), the responds object (res),
+Middleware has the ability to pass the next function or the Middleware which is exactly a call back, and also accept request
+to call the next Middleware is by using a NEXT() function call
+
+Type of Middleware (5):
+1.application level Middleware: 
+2.Router level Middleware: 
+3.Error handling Middleware:
+
+
+4.bulid in Middleware is a call back level Middleware
+app.use is a Middleware and there

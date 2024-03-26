@@ -14,12 +14,12 @@
                 <div class="side-nav" id="mySidenav">
                     <ul>
                         <a href="javascript:void(o)" class="closeBtn" onclick="closeNav()">&times;</a>
-                        <li class="nav-active"><a href="../HERO/Hero-section.html">HOME</a></li>
+                        <li class="nav-active"><a href="../Hero-section.html">HOME</a></li>
                         <li class="nav-active"><a href="./Contestant.html">contestant</a></li>
                         <li><a href="./Contact.html">Contact us</a></li>
                         <li><a href="./About.html">About us</a></li>
-                        <li><a href="../LOG-REG/register.html">Register</a></li>
-                        <li><a href="../LOG-REG/login.html">Login</a></li>
+                        <li><a href="../log_reg/register.html">Register</a></li>
+                        <li><a href="../log_reg/login.html">Login</a></li>
                     </ul>
                 </div>
                 <div id="main">
@@ -28,18 +28,17 @@
             <!-- </nav> -->
 
             <nav>
-                <div class="nav-logo">
-                    <label class="text" for="text">BEAUTY<STRONG>FLUX</STRONG></label>
+                <div class="nav-search">
+                    <img src="./items/icon/flux.jpeg" class="flux-nav">
+                    <label class="text-nav" for="text">BEAUTY<STRONG>FLUX</STRONG></label>
                 </div>
-                <div class="search">
-                    <input class="field" type="text" placeholder="search">
-                    <div class="search-box">
-                        <img src="#">
-                    </div>
+                <div class="nav-search">
+                    <input class="nav-field" type="text" placeholder="search">
+                    <img src="./items/searchbar.png" class="search-img">
                 </div>
-                <div class="order">
-                    <a href="../LOG-REG/login.html">
-                        <img src="./items/images.png" class="profile">
+                <div class="nav-search">
+                    <a href="../log_reg/login.html">
+                    <img src="./items/images.png" class="profile">
                     </a>
                 </div>
             </nav>
@@ -58,7 +57,7 @@
                             <div class="con-sec">
                                 <div class="con-item">
                                     <input class="con-field" type="text" placeholder="Your Name">
-                                    <input class="con-field" type="text" placeholder="Contestant ID">
+                                    <input class="con-field" type="text" placeholder="username">
                                 </div>
                             </div>
                             <div class="con-sec">
@@ -69,21 +68,13 @@
                             </div>
                             <div class="con-sec">
                                 <div class="con-item">
-                                    <input class="con-field" type="email" placeholder="your E-mail">
-                                    <input class="con-field" type="number" placeholder="Your Phone number">
-                                </div>
-                            </div>
-                            <div class="con-sec">
-                                <div class="con-item">
                                     <input class="con-field" type="text" placeholder="Subject">
                                     <input class="con-field" type="desc" placeholder="Massage">
                                 </div>
                             </div>
                         </form>
                         <div class="con-btn">
-                            <a href="#">
                             <button class="submit">Submit</button>
-                            </a>
                         </div>
                     </div>
                 </div>
@@ -93,8 +84,15 @@
                             <h1>Connect with us</h1>
                         </div>
                         <div class="foot">
-                            <img src="./items/icon/home.png" class="socials">
-                            <img src="./items/icon/mail.png" class="socials">
+
+                            <a href="../Hero-section.html">
+                                <img src="./items/icon/home.png" class="socials">
+                            </a>
+
+                            <a href="./Contact.html">
+                                <img src="./items/icon/mail.png" class="socials">
+                            </a>
+                            
                             <img src="./items/icon/call.png" class="socials">
                             <img src="./items/icon/@mail.png" class="socials">
                         </div>

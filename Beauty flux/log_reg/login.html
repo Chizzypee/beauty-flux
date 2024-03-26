@@ -13,12 +13,12 @@
         <div class="side-nav" id="mySidenav">
             <ul>
                 <a href="javascript:void(o)" class="closeBtn" onclick="closeNav()">&times;</a>
-                <li class="nav-active"><a href="../HERO/Hero-section.html">HOME</a></li>
+                <li class="nav-active"><a href="../Hero-section.html">HOME</a></li>
                 <li><a href="../HERO/Contestant.html">Contestant</a></li>
                 <li><a href="../HERO/Contact.html">Contact us</a></li>
                 <li><a href="../HERO/About.html">About us</a></li>
-                <li><a href="../LOG-REG/register.html">Register</a></li>
-                <li><a href="../LOG-REG/login.html">Login</a></li>
+                <li><a href="../log_reg/register.html">Register</a></li>
+                <li><a href="../log_reg/login.html">Login</a></li>
             </ul>
         </div>
             <div id="main">
@@ -26,16 +26,15 @@
             </div>
 
         <nav>
-            <div class="nav-logo">
+            <div class="nav-search">
+                <img src="../HERO/items/icon/flux.jpeg" class="flux-nav">
                 <label class="text" for="text">BEAUTY<STRONG>FLUX</STRONG></label>
             </div>
             <div class="nav-search">
                 <input class="nav-field" type="text" placeholder="search">
-                <div class="search-box">
-                    <img src="#">
-                </div>
+                <img src="../HERO/items/searchbar.png" class="search-img">
             </div>
-            <div class="order">
+            <div class="nav-search">
                 <a href="../log_reg/login.html">
                 <img src="../HERO/items/images.png" class="profile">
                 </a>
@@ -45,28 +44,30 @@
         <div class="content">
             <div class="btn-button">
                 <a href="./login.html">
-                <button class="btn-log" id="active">LOGIN</button>
+                    <button class="btn-log" id="active">LOGIN</button>
                 </a>
                 <a href="./register.html">
-                <button class="btn-reg">REGISTER</button>
+                    <button class="btn-log">REGISTER</button>
                 </a>
             </div>
             <div class="heading">
+                <img src="../HERO/items/icon/flux.jpeg" class="flux">
                 <h1>Beauty Flux</h1>
-                <h3>login my account</h3>
+                <h3>Login Your Account</h3>
             </div>
             <form>
                 <div class="item">
-                    <input class="field" type="email" placeholder="Enter email" id="email">
+                    <input class="field" type="text" placeholder="Enter username" id="username">
                 </div>
                 <div class="item">
                     <input class="field" type="password" placeholder="Enter password" id="password">
                 </div>
             </form>
             <div class="btn">
-                <!-- <a href="#"> -->
-                <button class="btn-reg2" onclick="Login(event)">Login</button>
-                <!-- </a> -->
+                <button class="btn-reg2" onclick="login(event)">Login</button>
+                <div class="item2">
+                    <label for="text" class="text1"><a href="#">Forget password</a></label>
+                </div>
             </div>
         </div>
         <footer>
@@ -75,9 +76,15 @@
                     <h1>Connect with us</h1>
                 </div>
                 <div class="foot">
-                    <img src="../HERO/items/icon/home.png" class="socials">
-                    <img src="../HERO/items/icon/mail.png" class="socials">
+                    <a href="../Hero-section.html">
+                        <img src="../HERO/items/icon/home.png" class="socials">
+                    </a>
+
+                    <a href="../HERO/Contact.html">
+                        <img src="../HERO/items/icon/mail.png" class="socials">
+                    </a>
                     <img src="../HERO/items/icon/call.png" class="socials">
+
                     <img src="../HERO/items/icon/@mail.png" class="socials">
                 </div>
             </div>
@@ -86,8 +93,8 @@
                     <li><a href="#">PRIVACY POLICY</a></li>
                     <li><a href="#">TERMS AND CONDITION</a></li>
                     <li><a href="#">SITE MAP</a></li>
-                    <li><a href="#">ABOUT US</a></li>
-                    <li><a href="#">CONTACT</a></li>
+                    <li><a href="../HERO/About.html">ABOUT US</a></li>
+                    <li><a href="../HERO/Contact.html">CONTACT</a></li>
                 </ul>
             </div>
             <div class="footer-right">
@@ -96,5 +103,7 @@
         </footer>
     </div>
     <script src="./functions/utils.js"></script>
+    <script src="./functions/bflux.js"></script>
+    <script src="./functions/routes.js"></script>
 </body>
 </html>
